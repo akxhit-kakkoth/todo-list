@@ -56,8 +56,13 @@ input{
     background-color: darkgreen;
 }
 #todos-wrapper{
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: center; */
     justify-content: center;
     padding: 20px 20px;
     font-size: 50px;
+}
+.todos-container{
+    display: flex;
 }
